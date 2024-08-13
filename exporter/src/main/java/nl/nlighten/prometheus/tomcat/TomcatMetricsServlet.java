@@ -1,8 +1,10 @@
 package nl.nlighten.prometheus.tomcat;
 
 
-import javax.servlet.ServletConfig;
-import javax.servlet.annotation.WebServlet;
+// import javax.servlet.ServletConfig;
+// import javax.servlet.annotation.WebServlet;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 import io.prometheus.client.Collector;
 import io.prometheus.client.CollectorRegistry;
